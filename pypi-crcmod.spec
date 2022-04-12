@@ -4,7 +4,7 @@
 #
 Name     : pypi-crcmod
 Version  : 1.7
-Release  : 44
+Release  : 45
 URL      : https://files.pythonhosted.org/packages/6b/b0/e595ce2a2527e169c3bcd6c33d2473c1918e0b7f6826a043ca1245dd4e5b/crcmod-1.7.tar.gz
 Source0  : https://files.pythonhosted.org/packages/6b/b0/e595ce2a2527e169c3bcd6c33d2473c1918e0b7f6826a043ca1245dd4e5b/crcmod-1.7.tar.gz
 Summary  : CRC Generator
@@ -14,9 +14,6 @@ Requires: pypi-crcmod-license = %{version}-%{release}
 Requires: pypi-crcmod-python = %{version}-%{release}
 Requires: pypi-crcmod-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: crcmod
-Provides: crcmod-python
-Provides: crcmod-python3
 
 %description
 crcmod for Calculating CRCs
@@ -95,7 +92,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641425537
+export SOURCE_DATE_EPOCH=1649732355
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
