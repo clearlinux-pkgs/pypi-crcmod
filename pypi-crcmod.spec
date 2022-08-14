@@ -4,7 +4,7 @@
 #
 Name     : pypi-crcmod
 Version  : 1.7
-Release  : 49
+Release  : 50
 URL      : https://files.pythonhosted.org/packages/6b/b0/e595ce2a2527e169c3bcd6c33d2473c1918e0b7f6826a043ca1245dd4e5b/crcmod-1.7.tar.gz
 Source0  : https://files.pythonhosted.org/packages/6b/b0/e595ce2a2527e169c3bcd6c33d2473c1918e0b7f6826a043ca1245dd4e5b/crcmod-1.7.tar.gz
 Summary  : CRC Generator
